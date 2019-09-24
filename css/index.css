@@ -138,7 +138,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: center;
-  background: yellow;
+  background: #6F721a;
   font-size: 1.5rem;
 }
 header div {
@@ -150,10 +150,13 @@ nav {
   width: 100%;
   justify-content: space-between;
   flex-direction: row;
-  background: black;
+  background: #f29421;
 }
 nav .logo {
   width: 40%;
+}
+nav .logo i {
+  color: #d83122;
 }
 nav .links {
   display: flex;
@@ -161,10 +164,11 @@ nav .links {
   align-items: center;
 }
 nav .links a {
-  color: red;
+  color: #d83122;
 }
 nav .links a:hover {
-  color: blue;
+  color: #f26615;
+  text-decoration: none;
 }
 .hero {
   max-width: 100%;
@@ -182,12 +186,13 @@ nav .links a:hover {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  background: white;
+  background: #6F721a;
   margin-top: -40%;
-  opacity: 0.7;
+  opacity: 0.9;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 80%;
+  color: white;
 }
 .hero .heroText p {
   text-align: center;
@@ -200,19 +205,25 @@ nav .links a:hover {
   padding-bottom: 2%;
 }
 .hero .heroText div a button {
-  border: 1px solid red;
+  border: 1px solid #f29421;
   border-radius: 5px;
+  color: #d83122;
+  background: #f29421;
 }
 .hero .heroText div a button:hover {
-  background: red;
-  color: orange;
+  background: #d83122;
+  color: white;
 }
 .whatWeDoText {
-  margin-top: 37%;
-  background: snow;
+  margin-top: 30%;
+  background: #f26615;
+  padding-bottom: 3%;
+  padding-left: 1%;
 }
 .whatWeDoText h3 {
   font-size: 2rem;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 .whatWeDoText div {
   display: flex;
@@ -221,6 +232,9 @@ nav .links a:hover {
   align-items: center;
   text-align: center;
   font-size: 1.3rem;
+}
+.whatWeDoText div button {
+  margin-top: 3%;
 }
 .support {
   display: flex;
@@ -234,8 +248,21 @@ nav .links a:hover {
   width: 100%;
   text-align: center;
   font-size: 2rem;
-  border-bottom: 2px dashed black;
+  color: #d83122;
+  border-bottom: 2px dashed #d83122;
 }
 .support img {
   width: 40%;
+}
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3%;
+  background: #6F721a;
+  height: 10vh;
+}
+footer .fa-instagram {
+  color: red;
+  font-size: 1.7rem;
 }
