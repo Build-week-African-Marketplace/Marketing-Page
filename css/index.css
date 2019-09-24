@@ -167,7 +167,7 @@ nav .links a:hover {
   color: blue;
 }
 .hero {
-  background: url(/imgs/fruitMarket.jpeg);
+  background: url(/img/fruitMarket.jpeg);
   height: 70vh;
   display: flex;
   align-items: flex-end;
@@ -181,6 +181,7 @@ nav .links a:hover {
   opacity: 0.7;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 .hero .heroText p {
   text-align: center;
