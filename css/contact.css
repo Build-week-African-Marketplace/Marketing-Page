@@ -181,6 +181,7 @@ nav .links {
 }
 nav .links a {
   color: #F4F8F7;
+  text-decoration: none;
 }
 nav .links a:hover {
   color: #D4BF26;
