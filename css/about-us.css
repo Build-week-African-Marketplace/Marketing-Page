@@ -282,7 +282,7 @@ nav .links a:hover {
   flex-direction: column;
   align-content: space-around;
   width: 35%;
-  margin: 5%;
+  margin-top: 3%;
   text-align: center;
 }
 .about-container .bottom-content .icon-descriptors .icon h3 {
