@@ -204,9 +204,13 @@ nav .links a:hover {
   border-radius: 2px;
   box-shadow: 12px 12px 10px -15px black;
   text-align: center;
+  color: #D4BF26;
 }
 .team-container .meet-team h3 {
   font-size: 2rem;
+  color: #068460;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 .team-container .team {
   display: flex;
@@ -228,6 +232,26 @@ nav .links a:hover {
 .team-container .team .team-mate img {
   max-width: 100%;
   height: auto;
+}
+.team-container .team .team-mate h3 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.team-container .team .team-mate p {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+@media screen and (max-width: 950px) {
+  .team-container .team .team-mate {
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 950px) {
+  .team-container .team {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 footer {
   display: flex;
