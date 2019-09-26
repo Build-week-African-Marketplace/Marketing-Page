@@ -190,6 +190,26 @@ nav .links a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  font-size: 1.6rem;
+  width: 100%;
+  margin-top: 5%;
+}
+.contactForm form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.contactForm form input {
+  margin-bottom: 7%;
+}
+.contactForm form .subject {
+  width: 80%;
+  margin-bottom: 5%;
+  display: flex;
   flex-direction: column;
 }
 footer {
