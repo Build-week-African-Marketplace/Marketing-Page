@@ -212,10 +212,10 @@ nav .links a:hover {
 .about-container .top-content .top-content-image {
   width: 50%;
   height: 100%;
-  box-sizing: border-box;
 }
 .about-container .top-content .top-content-image img {
-  height: 72vh;
+  max-width: 100%;
+  height: auto;
 }
 .about-container .top-content .top-content-description {
   width: 50%;
@@ -232,6 +232,19 @@ nav .links a:hover {
 .about-container .top-content .top-content-description p {
   color: #D4BF26;
   font-size: 1.3rem;
+}
+@media screen and (max-width: 950px) {
+  .about-container .top-content .top-content-description {
+    width: 80%;
+    margin: 1% auto;
+  }
+}
+@media screen and (max-width: 950px) {
+  .about-container .top-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .about-container .bottom-content .icon-descriptors-title {
   width: 100%;
@@ -255,25 +268,49 @@ nav .links a:hover {
   display: flex;
   justify-content: center;
 }
+.about-container .bottom-content .icon-descriptors #market {
+  color: #068460;
+}
+.about-container .bottom-content .icon-descriptors #listings {
+  color: #068460;
+}
+.about-container .bottom-content .icon-descriptors #visibility {
+  color: #068460;
+}
 .about-container .bottom-content .icon-descriptors .icon {
   display: flex;
   flex-direction: column;
   align-content: space-around;
   width: 35%;
   margin: 5%;
-  width: 30%;
   text-align: center;
 }
 .about-container .bottom-content .icon-descriptors .icon h3 {
   margin-top: 5%;
   margin-bottom: 5%;
+  color: #D83122;
 }
 .about-container .bottom-content .icon-descriptors .icon i {
   font-size: 10rem;
 }
 .about-container .bottom-content .icon-descriptors .icon p {
-  width: 80%;
-  margin: 0 auto;
+  margin: 5% auto;
+  padding: 5%;
+  text-align: left;
+}
+@media screen and (max-width: 700px) {
+  .about-container .bottom-content .icon-descriptors .icon {
+    width: 80%;
+    margin: 5%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .about-container .bottom-content .icon-descriptors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 footer {
   display: flex;
