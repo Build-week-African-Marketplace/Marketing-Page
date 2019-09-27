@@ -18,13 +18,13 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        background: #068460;
+        background: @green;
         margin-top: -40%;
         opacity: .9;
         align-items: center;
         justify-content: center;
         width: 80%;
-        color: #F4F8F7;
+        color: @white;
         
 
         p{
@@ -42,22 +42,18 @@
 
 
                 button{
-                    border: 1px solid #D83122;
+                    border: 1px solid @red;
                     border-radius: 5px;
-                    color:#F4F8F7;
-                    background: #D4BF26;
+                    color:@white;
+                    background: @yellow;
 
                     &:hover{
-                        background: #d83122;
-                        color: #F4F8F7;
+                        background: @red;
+                        color: @white;
                     }
                 }
                 
             }
-        }
-
-        @media screen and (max-width: 500px){
-            
         }
     }// closes heroText
 }

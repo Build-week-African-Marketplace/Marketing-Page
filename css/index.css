@@ -165,6 +165,7 @@ nav {
   width: 100%;
   justify-content: space-between;
   align-items: center;
+  color: #F4F8F7;
   background: #068460;
 }
 nav .logo {
@@ -228,7 +229,7 @@ nav .links a:hover {
   background: #D4BF26;
 }
 .hero .heroText div a button:hover {
-  background: #d83122;
+  background: #D83122;
   color: #F4F8F7;
 }
 .whatWeDoText {
@@ -270,7 +271,7 @@ nav .links a:hover {
   width: 100%;
   text-align: center;
   font-size: 2rem;
-  color: #d83122;
+  color: #D83122;
   border-bottom: 2px dashed #d83122;
 }
 .support img {
